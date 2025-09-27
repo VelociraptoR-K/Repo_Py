@@ -26,8 +26,9 @@ class Tests(unittest.TestCase):
     def test_Equal(self):
         self.assertEqual(sum_two([2,7,11,15], 9),[0,1])
 
-    def test_Equal(self):
+    def test_Is_In(self):
         self.assertEqual(sum_two([2,7,11,15], 99),'В списке не нашлось нужной комбинации')
 
 if __name__ == '__main__':
+
     unittest.main()
