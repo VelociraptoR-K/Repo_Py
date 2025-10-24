@@ -18,3 +18,19 @@
 
 Вывод: Рекурcивный вариант вычисления факториала работает медленнее, так как помимо вычислений ещё дополнительно тратит время на вызовы самой себя.
 
+Второй:
+
+Сравнение РекФакт (lru_cache) и РекФакт n/a optimization
+
+
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/3728d5dd-69db-452b-9689-3635d2d45c17" />
+
+
+Сравнение НРекФакт (lru_cache) и НРекФакт n/a optimization
+
+
+<img width="640" height="480" alt="Figure_23" src="https://github.com/user-attachments/assets/d66cfe0f-b8b3-4993-9dff-d4f16219da6d" />
+
+
+
+
