@@ -7,7 +7,9 @@
 
 2. Наличие и отсутствие оптимизации:
 
-без мемоизациии ( n/a optimization), c мемоизацией (lru_cache)
+без мемоизациии ( n/a optimization)
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/5b933730-e3f5-4a29-b417-55d93380d755" />
+c мемоизацией (lru_cache)
 <img width="640" height="480" alt="Figure_15" src="https://github.com/user-attachments/assets/39dd2d57-8226-41b4-b676-61e6328f8c5f" />
 
 
