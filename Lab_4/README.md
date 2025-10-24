@@ -3,7 +3,6 @@
 Первый:
 Сравнение lru_cache РекФакт и НРекФакт
 
-С мемоизацией (lru_cache)
 
 <img width="640" height="480" alt="Figure_15" src="https://github.com/user-attachments/assets/39dd2d57-8226-41b4-b676-61e6328f8c5f" />
 
