@@ -8,7 +8,8 @@
 Наличие и отсутствие оптимизации
 
 без мемоизациии ( n/a optimization), c мемоизацией (lru_cache)
-<img width="640" height="480" alt="Figure_12" src="https://github.com/user-attachments/assets/9f92653d-f6dd-4fcf-9b15-03b16447e938" />
+<img width="1058" height="565" alt="image" src="https://github.com/user-attachments/assets/e973893f-5393-4842-a2cb-47894833329b" />
+
 
 
 Вывод: Кэшированные функции вычисления факториала работают быстрее, чем без кжша, так как при вычислении факториала программа может обращаться к уже посчитанным раннее числам.
