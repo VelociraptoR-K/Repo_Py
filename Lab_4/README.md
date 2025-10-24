@@ -11,7 +11,8 @@
 
 Сравнение n/a optimization РекФакт и НРекФакт️:
 
-<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/f16cc2dc-0a40-4fbd-8e2b-42719ce5f29e" />
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/5b2590ec-ff8d-4911-9642-2a0d13b1697d" />
+
 
 
 Вывод: Рекурcивный вариант вычисления факториала работает медленнее, так как помимо вычислений ещё дополнительно тратит время на вызовы самой себя.
