@@ -33,9 +33,10 @@
 Сравнение НРекФакт (lru_cache) и НРекФакт n/a optimization
 
 
-<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/32ce7448-64ec-46a6-9196-9d71b43572f8" />
+<img width="640" height="480" alt="Figudsdsre_1" src="https://github.com/user-attachments/assets/83f73c02-5679-4f54-9683-6644a90698e2" />
 
 
+Вывод: Кэшированная рекурсивная функция работает намного быстрее просто рекурсивной, так как сохраняет результаты вычислений в кэш, позволяя обращаться к ним, не выполняя новых вычислений.
 
 
 
