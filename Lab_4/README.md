@@ -4,7 +4,8 @@
 Сравнение lru_cache РекФакт и НРекФакт
 
 
-<img width="640" height="480" alt="Figure_15" src="https://github.com/user-attachments/assets/39dd2d57-8226-41b4-b676-61e6328f8c5f" />
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/8c0fe3ed-8ff3-40fc-a89c-b4a9ba6e3bf4" />
+
 
 Вывод: Кэшированная функция вычисления рекурсивного факториала работает быстрее, так как при вычислении факториала программа может обращаться к уже посчитанным раннее числам.
 
