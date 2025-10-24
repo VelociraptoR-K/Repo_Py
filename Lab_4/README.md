@@ -23,7 +23,8 @@
 Сравнение РекФакт (lru_cache) и РекФакт n/a optimization
 
 
-<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/22a2108b-3857-4858-866b-d9c702441171" />
+<img width="640" height="480" alt="cddcdcd" src="https://github.com/user-attachments/assets/495b447d-a017-45f9-823e-d578f322f5b5" />
+
 
 
 
