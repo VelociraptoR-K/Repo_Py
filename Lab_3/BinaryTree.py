@@ -10,8 +10,8 @@ def right_branch(root:int)->int:
 
 def gen_bin_tree(height: int = 4, root: int = 3, l_b:int=left_branch, r_b:int=right_branch):
     """Генерирует бинарное дерево в виде словаря.
-        Каждый узел: {корень: {левый потомок, правый потомок}}
-        Листья: {значение: {}}"""
+        Каждый узел: {корень: [левый потомок, правый потомок]}
+        Листья: {значение: []}"""
     if height < 0:
         return 'Вершина дерева должна быть >= 0'
     if height == 0:
@@ -24,16 +24,17 @@ def gen_bin_tree(height: int = 4, root: int = 3, l_b:int=left_branch, r_b:int=ri
 
 def gen_bin_tree_tuple(height:int = 4, root:int = 3, l_b:int=left_branch, r_b:int=right_branch):
     """Генерирует бинарное дерево в виде кортежа.
-       Каждый узел: {корень: [левый потомок, правый потомок]}
-       Листья: {значение: []}"""
+       Каждый узел: (корень: [левый потомок, правый потомок])
+       Листья: (значение: [])"""
     if height < 0:
         return 'Вершина дерева должна быть >= 0'
     if height == 0:
-        return {root: []}
+        return (root,[])
     left_b = l_b(root)
     right_b = r_b(root)
     left = gen_bin_tree_tuple(height - 1, left_b, l_b, r_b)
     right = gen_bin_tree_tuple(height - 1, right_b, l_b, r_b)
-    return tuple([root, [left, right]])
+    return (root, [left, right])
+
 
 
