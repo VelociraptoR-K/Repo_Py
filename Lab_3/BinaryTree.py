@@ -8,7 +8,7 @@ def right_branch(root:int)->int:
 
 # всего 2**(n+1) - 1
 
-def gen_bin_tree(height: int = 4, root: int = 3, l_b:int=left_branch, r_b:int=right_branch):
+def gen_bin_tree(height: int = 2, root: int = 3, l_b:int=left_branch, r_b:int=right_branch):
     """Генерирует бинарное дерево в виде словаря.
         Каждый узел: {корень: [левый потомок, правый потомок]}
         Листья: {значение: []}"""
@@ -22,7 +22,7 @@ def gen_bin_tree(height: int = 4, root: int = 3, l_b:int=left_branch, r_b:int=ri
     right_leaf = gen_bin_tree(height - 1, right_b, l_b, r_b)
     return {root: [left_leaf, right_leaf]}
 
-def gen_bin_tree_tuple(height:int = 4, root:int = 3, l_b:int=left_branch, r_b:int=right_branch):
+def gen_bin_tree_tuple(height:int = 1, root:int = 3, l_b:int=left_branch, r_b:int=right_branch):
     """Генерирует бинарное дерево в виде кортежа.
        Каждый узел: (корень: [левый потомок, правый потомок])
        Листья: (значение: [])"""
@@ -35,6 +35,7 @@ def gen_bin_tree_tuple(height:int = 4, root:int = 3, l_b:int=left_branch, r_b:in
     left = gen_bin_tree_tuple(height - 1, left_b, l_b, r_b)
     right = gen_bin_tree_tuple(height - 1, right_b, l_b, r_b)
     return f"({root}: [{left}, {right}])"
+
 
 
 
