@@ -16,13 +16,8 @@ def fact_iterative(n: int) -> int:
     return res
 
 def benchmark(func, n, number=1, repeat=5):
-    def setup():
-        """Очищает кэш перед каждым повторением"""
-        if hasattr(func, 'cache_clear'):
-            func.cache_clear()
-
     """Возвращает среднее время выполнения func(n)"""
-    times = timeit.repeat(lambda: func(n),setup=setup, number=number, repeat=repeat)
+    times = timeit.repeat(lambda: func(n), number=number, repeat=repeat)
     return min(times)
 
 def main():
@@ -48,4 +43,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
