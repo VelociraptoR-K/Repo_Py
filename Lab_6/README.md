@@ -1,3 +1,4 @@
-<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/fdda34db-dce8-4e5c-977a-253089f237a3" />
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/a1be8b01-78ab-481c-9624-fabee5995c62" />
+
 
 Вывод: итеративнй подход справляется с задачей построения бинарного дерева намного быстрее чем рекурсивный + с увеличением высоты дерева резко увеличивается время его построения.
