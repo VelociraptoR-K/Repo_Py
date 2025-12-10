@@ -17,5 +17,7 @@
 <img width="1518" height="1311" alt="image" src="https://github.com/user-attachments/assets/03601690-4233-4bca-9610-10ce6d976491" />
 
 5. Тесты:
+
 Тесты функции находятся в файле: test_currencies.py
+
 Тесты декоратора и работы с StringIO находятся в файле: test_logger.py
