@@ -1,0 +1,8 @@
+2025-12-10 17:17:13,194 - currency - INFO - Calling get_currencies_file with args=(['USD', 'EUR'],), kwargs={}
+2025-12-10 17:17:13,536 - currency - INFO - get_currencies_file returned {'USD': 76.8084, 'EUR': 89.4267}
+2025-12-10 17:17:45,955 - currency - INFO - Calling get_currencies_file with args=(['USD', 'EUR'],), kwargs={}
+2025-12-10 17:17:46,353 - currency - INFO - get_currencies_file returned {'USD': 76.8084, 'EUR': 89.4267}
+2025-12-10 17:18:54,393 - currency - INFO - Calling get_currencies_file with args=(['USD', 'EUR'],), kwargs={}
+2025-12-10 17:18:54,766 - currency - INFO - get_currencies_file returned {'USD': 76.8084, 'EUR': 89.4267}
+2025-12-10 18:18:14,481 - currency - INFO - Calling get_currencies_file with args=(['USD', 'EUR'],), kwargs={}
+2025-12-10 18:18:14,841 - currency - INFO - get_currencies_file returned {'USD': 77.8998, 'EUR': 91.3806}

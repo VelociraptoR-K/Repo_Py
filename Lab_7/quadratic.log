@@ -1,0 +1,52 @@
+INFO: Solving equation: 1x^2 + -3x + 2 = 0
+DEBUG: Discriminant: 1
+INFO: Two real roots computed
+INFO: Solving equation: 1x^2 + 2x + 1 = 0
+DEBUG: Discriminant: 0
+INFO: One real root
+INFO: Solving equation: 1x^2 + 2x + 5 = 0
+DEBUG: Discriminant: -16
+WARNING: Discriminant < 0: no real roots
+INFO: Solving equation: abcx^2 + 2x + 1 = 0
+CRITICAL: Parameter 'a' must be a number, got: abc
+INFO: Solving equation: 0x^2 + 2x + 1 = 0
+ERROR: Coefficient 'a' cannot be zero
+INFO: Solving equation: 1x^2 + -3x + 2 = 0
+DEBUG: Discriminant: 1
+INFO: Two real roots computed
+INFO: Solving equation: 1x^2 + 2x + 1 = 0
+DEBUG: Discriminant: 0
+INFO: One real root
+INFO: Solving equation: 1x^2 + 2x + 5 = 0
+DEBUG: Discriminant: -16
+WARNING: Discriminant < 0: no real roots
+INFO: Solving equation: abcx^2 + 2x + 1 = 0
+CRITICAL: Parameter 'a' must be a number, got: abc
+INFO: Solving equation: 0x^2 + 2x + 1 = 0
+ERROR: Coefficient 'a' cannot be zero
+INFO: Solving equation: 1x^2 + -3x + 2 = 0
+DEBUG: Discriminant: 1
+INFO: Two real roots computed
+INFO: Solving equation: 1x^2 + 2x + 1 = 0
+DEBUG: Discriminant: 0
+INFO: One real root
+INFO: Solving equation: 1x^2 + 2x + 5 = 0
+DEBUG: Discriminant: -16
+WARNING: Discriminant < 0: no real roots
+INFO: Solving equation: abcx^2 + 2x + 1 = 0
+CRITICAL: Parameter 'a' must be a number, got: abc
+INFO: Solving equation: 0x^2 + 2x + 1 = 0
+ERROR: Coefficient 'a' cannot be zero
+INFO: Solving equation: 1x^2 + -3x + 2 = 0
+DEBUG: Discriminant: 1
+INFO: Two real roots computed
+INFO: Solving equation: 1x^2 + 2x + 1 = 0
+DEBUG: Discriminant: 0
+INFO: One real root
+INFO: Solving equation: 1x^2 + 2x + 5 = 0
+DEBUG: Discriminant: -16
+WARNING: Discriminant < 0: no real roots
+INFO: Solving equation: abcx^2 + 2x + 1 = 0
+CRITICAL: Parameter 'a' must be a number, got: abc
+INFO: Solving equation: 0x^2 + 2x + 1 = 0
+ERROR: Coefficient 'a' cannot be zero
