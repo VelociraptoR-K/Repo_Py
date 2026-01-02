@@ -25,32 +25,43 @@
 Author
 
 name — имя автора
+
 group — учебная группа
 
 App
 
 name — название приложения
+
 version — версия приложения
+
 author — объект Author
 
 User
 
 id — уникальный идентификатор
+
 name — имя пользователя
 
 Currency
 
 id — уникальный идентификатор
+
 num_code — цифровой код
+
 char_code — символьный код
+
 name — название валюты
+
 value — курс
+
 nominal — номинал (за сколько единиц валюты указан курс)
 
 UserCurrency
 
 id — уникальный идентификатор
+
 user_id — внешний ключ к User
+
 currency_id — внешний ключ к Currency
 
 Реализует связь «много ко многим» между пользователями и валютами.
@@ -59,19 +70,33 @@ currency_id — внешний ключ к Currency
 
 
 myapp/
+
+
 Файл	Назначение
+
 models/__init__.py	импорт всех моделей
 models/author.py	класс Author
+
 models/app.py	класс App
+
 models/user.py	класс User
+
 models/currency.py	класс Currency
+
 models/user_currency.py	класс UserCurrency
+
 static/
+
 │ └── css, js, изображения
+
 templates/*.html	шаблоны страниц
+
 myapp.py	запуск сервера и маршрутизация
+
 utils/currencies_api.py	функция get_currencies
+
 testing/ файлы для тестов
+
 logger.py логирование запросов
 
 
