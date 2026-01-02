@@ -71,10 +71,10 @@ currency_id — внешний ключ к Currency
 
 myapp/
 
-
 Файл	Назначение
 
 models/__init__.py	импорт всех моделей
+
 models/author.py	класс Author
 
 models/app.py	класс App
