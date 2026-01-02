@@ -97,6 +97,8 @@ utils/currencies_api.py	функция get_currencies
 
 testing/ файлы для тестов
 
+run_tests.py запуск всех тестов
+
 logger.py логирование запросов
 
 
