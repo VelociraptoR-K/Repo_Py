@@ -104,3 +104,15 @@ logger.py логирование запросов
 
 4. Описание реализации
 
+8. Выводы:
+В ходе лаборатрной работы я
+
+В ходе работы возникли такие проблемы: не прошли 2 теста:
+
+=========================== short test summary info ===========================
+
+FAILED testing/test_controller.py::test_template_rendering - jinja2.exception...
+
+FAILED testing/test_controller.py::test_query_parsing_logic - AssertionError:...
+
+======================== 2 failed, 23 passed in 0.47s =========================
