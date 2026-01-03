@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page_title }}</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            {% for item in navigation %}
+                <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    <h1>{{ page_title }}</h1>
+    <p>Запрошенная страница <strong>{{ requested_path }}</strong> не существует.</p>
+    <p><a href="/">Вернуться на главную страницу</a></p>
+</body>
+</html>
