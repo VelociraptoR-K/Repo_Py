@@ -85,9 +85,7 @@ models/currency.py	класс Currency
 
 models/user_currency.py	класс UserCurrency
 
-static/
-
-│ └── css, js, изображения
+static/ css, js, изображения
 
 templates/*.html	шаблоны страниц
 
