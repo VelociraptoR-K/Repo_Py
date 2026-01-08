@@ -52,33 +52,6 @@ class UserCurrency:
 
 3. Структура проекта с назначением файлов.
 
-currenciesapp/
-├── models/                    # Модели данных (MVC: Model)
-│   ├── __init__.py
-│   ├── currency.py           # Модель валюты
-│   ├── user.py               # Модель пользователя
-│   ├── user_currency.py      # Модель подписки
-│   ├── author.py             # Модель автора
-│   └── app.py                # Модель приложения
-├── controllers/              # Контроллеры (MVC: Controller)
-│   ├── databasecontroller.py # Контроллер работы с БД
-│   └── currencycontroller.py # Контроллер валют
-├── templates/                # Шаблоны (MVC: View)
-│   ├── index.html           # Главная страница
-│   ├── currencies.html      # Страница валют
-│   ├── users.html           # Страница пользователей
-│   ├── user.html            # Детальная страница пользователя
-│   ├── author.html          # Страница автора
-│   ├── 404.html             # Страница ошибки
-│   └── currency_show.html   # Показать данные из БД
-├── utils/                   # Вспомогательные модули
-│   └── currencies_api.py    # API для получения курсов валют
-├── testing/                 # Тесты
-│   └── test_currency_controller.py
-├── myapp.py                 # Основное приложение
-
-
-
 
 
 
