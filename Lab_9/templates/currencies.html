@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Валюты</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Список валют</h1>
+    <nav>
+        <ul>
+            {% for item in navigation %}
+                <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <h1>Валюты</h1>
+
+    <div class="info">
+        <p><strong>Последнее обновление:</strong> {{ last_update }}</p>
+        <p><strong>Статус:</strong> {{ update_status }}</p>
+        <p><a href="/currencies?refresh">Обновить</a></p>
+    </div>
+    {% if currencies and currencies|length > 0 %}
+    <table>
+        <tr>
+            <th>Код</th>
+            <th>Название</th>
+            <th>Цифровой код</th>
+            <th>Курс</th>
+            <th>Номинал</th>
+            <th>Действия</th>
+        </tr>
+        {% for currency in currencies %}
+            <tr>
+                <td><strong>{{ currency.char_code }}</strong></td>
+                <td>{{ currency.name }}</td>
+                <td>{{ currency.num_code }}</td>
+                <td>{{ currency.value }} ₽</td>
+                <td>{{ currency.nominal }}</td>
+                <td><a href="/currency/delete?id={{currency.id}}">Удалить</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p style="color: red;">Не удалось загрузить данные о валютах</p>
+    {% endif %}
+</body>
+</html>
