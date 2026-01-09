@@ -18,8 +18,8 @@ class CurrencyRatesCRUD:
         self.__createtable()
 
     def __createtable(self):
-        """Создает таблицы в базе данных согласно схеме из задания."""
-        # Исправляем структуру таблицы согласно заданию
+        """Создает таблицы в базе данных."""
+        
         self.__con.execute("""
             CREATE TABLE currency (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -61,7 +61,6 @@ class CurrencyRatesCRUD:
                             Если None, использует данные из currency_rates_obj
         """
         if currencies_data is None and self.__currency_rates_obj:
-            # Для обратной совместимости с существующим кодом
             __params = self.__currency_rates_obj.values
             data = []
             for el in __params:
