@@ -19,3 +19,5 @@
 Лабораторная 8: https://github.com/VelociraptoR-K/Repo_Py/tree/0d7de09a4f1203d60b76404f09c00c7718b2eb78/Lab_8
 
 Лабораторная 9: https://github.com/VelociraptoR-K/Repo_Py/tree/d8389d4a9b3fe541673bde657f01b91d69244836/Lab_9
+
+Лабораторная 10: https://github.com/VelociraptoR-K/Repo_Py/tree/5a3c15a60fb49e01cbe960752e39e4ebb8f3582d/Lab_10
